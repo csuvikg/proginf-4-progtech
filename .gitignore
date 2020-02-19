@@ -4,3 +4,6 @@
 
 # Java class files
 *.class
+
+# Build dir
+out
