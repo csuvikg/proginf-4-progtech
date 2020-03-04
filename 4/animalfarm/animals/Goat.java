@@ -1,0 +1,14 @@
+package animalfarm.animals;
+
+import java.util.List;
+
+class Goat extends Animal {
+    Goat(String name, int weight, List<Integer> meals) {
+        super(name, weight, meals);
+    }
+
+    @Override
+    int getThreashold() {
+        return 12;
+    }
+}
