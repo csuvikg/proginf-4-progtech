@@ -8,7 +8,7 @@ class Emu extends Animal {
     }
 
     @Override
-    int getThreashold() {
+    int getThreshold() {
         return 20;
     }
 }

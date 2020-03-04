@@ -14,14 +14,14 @@ public abstract class Animal {
     }
 
     public boolean isUnderweight() {
-        return weight < getThreashold();
+        return weight < getThreshold();
     }
 
     public boolean isOvereater() {
         return meals.stream().reduce(0, Integer::sum) > 100;
     }
 
-    abstract int getThreashold();
+    abstract int getThreshold();
 
     @Override
     public String toString() {

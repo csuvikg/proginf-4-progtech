@@ -8,7 +8,7 @@ class Horse extends Animal {
     }
 
     @Override
-    int getThreashold() {
+    int getThreshold() {
         return 60;
     }
 }

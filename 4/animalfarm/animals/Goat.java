@@ -8,7 +8,7 @@ class Goat extends Animal {
     }
 
     @Override
-    int getThreashold() {
+    int getThreshold() {
         return 12;
     }
 }
